@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <item
+        android:id="@+id/blankFragment"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Топ рейтинг"
+        >
+
+    </item>
+    <item
+        android:id="@+id/blankFragment22"
+        android:icon="@drawable/ic_baseline_alarm_24"
+        android:title="Ожидаемые"
+        >
+    </item>
+
+</menu>

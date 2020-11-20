@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".thiselement">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ImageFilm"
+        android:layout_width="match_parent"
+        android:layout_height="500sp"
+        android:scaleType="fitXY" />
+    <ProgressBar
+        android:id="@+id/Progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/TitleFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewstyle" />
+
+    <TextView
+        android:id="@+id/Vote_average"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewstyle" />
+
+    <TextView
+        android:id="@+id/Release_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewstyle" />
+    <TextView
+        android:id="@+id/Overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewstyle" />
+
+
+
+</LinearLayout>
